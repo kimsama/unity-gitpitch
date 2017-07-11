@@ -1,4 +1,4 @@
-<span style="font-family:Helvetica Neue; font-weight:bold">ScriptableObject</span>
+<span style="font-size:1.0em; font-weight:bold; color:gray">ScriptableObject</span>
 
 ---
 
