@@ -82,13 +82,13 @@ public  class  MonoBehaviourEventTrigger : MonoBehaviour
 
 AudioSource 객체 생성
 
-![Image](images/audiosource.png)&size=auto 70%
+![Image](images/audiosource.png){:height="80%" width=auto}.
 
 ---
 
 AudioSource 객체 설정
 
-1. AudioSource 컴포넌트 추가
+1. AudioSource 컴포넌트 추
 2. AudioManager 객체 등록
 3. MonoBehaviourEventTrigger의 onAwake 이벤트로 AudioManager.audioSource 설정.
 
