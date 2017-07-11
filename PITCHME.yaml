@@ -1,5 +1,3 @@
 highlight : zenburn
 footnote : "kimsama@github"
 theme: moon
-theme-override : css/PITCHME.css
-logo : assets/logo.png
