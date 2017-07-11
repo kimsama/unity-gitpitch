@@ -16,6 +16,11 @@ AudioSource.PlayOneShot
 
 ---
 
+Button UI 객체 생성
+
+![Image-Absolute](images/ui_button01.png)
+
+---
 
 ## Audio Manager
 
@@ -75,24 +80,21 @@ public  class  MonoBehaviourEventTrigger : MonoBehaviour
 
 ---
 
-AudioSource 등록
+AudioSource 객체 생성
 
-![Image-Absolute](images/audiosource01.jpg)
+![Image-Absolute](images/audiosource.png)
 
-- AudioSource를 AudioManager에 등록.
-- MonobehaviourEventTrigger.OnAwake: AudioManager를 설정
-- AudioManager.audioSource: AudioSource를 설정.
-- AudioManager.audioSource는 속성이므로 이벤트에 사용 가능 버립니다.
+1. AudioSource 컴포넌트 추가
+2. AudioManager 객체 등록
+3. MonoBehaviourEventTrigger의 onAwake 이벤트로 AudioManager.audioSource 설정.
+
+onAwake.Invoke 함수 호출시 AudioManager.audioSource에 AudioSource(1) 객체가 할당된다.
 
 ---
 
-## Button Action
+Button.OnClick 이벤트 처리
 
+![Image-Absolute](images/button_oncllick.png)
 
-![Image-Absolute](images/button01.jpg)
-
-- 버튼 클릭시 등록된 사운드를 출력하도록 설정.
-- Button에 AudioManager를 등록.
-- AudioManager의 PlayOneShot 사운드를 등록.
-
-----
+* 버튼 클릭시 AudioManager.PlayOneShot 함수가 호출.
+* AudioManager.PlayOneShot 함수의 인자로 설정한 audio clip이 전달.
