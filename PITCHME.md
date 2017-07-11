@@ -82,7 +82,7 @@ public  class  MonoBehaviourEventTrigger : MonoBehaviour
 
 AudioSource 객체 생성
 
----?image=images/audiosource.png&size=contain
+---?image=images/audiosource.png&size=auto 80%
 
 ---
 
@@ -92,7 +92,7 @@ AudioSource 객체 설정
 2. AudioManager 객체 등록
 3. MonoBehaviourEventTrigger의 onAwake 이벤트로 AudioManager.audioSource 설정.
 
-onAwake.Invoke 함수 호출시 AudioManager.audioSource에 AudioSource(1) 객체가 할당된다.
+* onAwake.Invoke 함수 호출시 AudioManager.audioSource에 AudioSource(1) 객체가 할당된다.
 
 ---
 
