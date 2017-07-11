@@ -16,6 +16,8 @@ AudioSource.PlayOneShot
 
 ---
 
+---
+
 ## Audio Manager
 
 AudioManager.cs
@@ -40,6 +42,11 @@ public  class  AudioManager : ScriptableObject
 ```
 ---
 
+ScriptableObject 에셋 생성
+
+![Image-Absolute](images/audiomanager-asset01.jpg)
+
+---
 ## Event Trigger
 
 MonoBehaviourEventTrigger.cs
