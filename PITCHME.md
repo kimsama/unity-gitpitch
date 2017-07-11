@@ -90,11 +90,9 @@ AudioSource 객체 설정
 
 <span style="color:gray; font-size:0.7em">onAwake.Invoke 함수 호출시 AudioManager.audioSource에 AudioSource(1) 객체가 할당된다.</span>
 
----
 
 ?image=images/audiosource.png&size=auto 70%
 
----
 
 Button.OnClick 이벤트 처리
 
