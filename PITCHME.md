@@ -14,10 +14,11 @@
 
 AudioSource.PlayOneShot
 
+---
 
-### Audio Manager
+## Audio Manager
 
-AudioManager.cs 
+AudioManager.cs
 
 ```csharp
 using  System.Collections ;
@@ -37,6 +38,7 @@ public  class  AudioManager : ScriptableObject
 	public AudioSource  audioSource { get ; set ;}
 }
 ```
+---
 
 ## Event Trigger
 
