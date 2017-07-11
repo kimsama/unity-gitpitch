@@ -22,21 +22,21 @@ AudioSource.PlayOneShot
 AudioManager.cs
 
 ```csharp
-using  System.Collections ;
-using  System.Collections.Generic ;
-using  UnityEngine ;
+using  System.Collections;
+using  System.Collections.Generic;
+using  UnityEngine;
 
 [CreateAssetMenu]
-public  class  AudioManager : ScriptableObject
+public class AudioManager : ScriptableObject
 {
-	public  void  PlayOneShot ( AudioClip  clip )
+	public void PlayOneShot ( AudioClip clip )
 	{
 		if (audioSource! = null ) {
 			audioSource.PlayOneShot (clip);
 		}
 	}
 
-	public AudioSource  audioSource { get ; set ;}
+	public AudioSource audioSource { get ; set ;}
 }
 ```
 ---
