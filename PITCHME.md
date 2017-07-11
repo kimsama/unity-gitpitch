@@ -82,7 +82,7 @@ public  class  MonoBehaviourEventTrigger : MonoBehaviour
 
 AudioSource 객체 생성
 
-![Logo](images/audiosource.png&size=auto 70%)
+![Image](images/audiosource.png)&size=auto 70%
 
 ---
 
