@@ -1,4 +1,4 @@
-## ScriptableObject
+<span style="font-family:Helvetica Neue; font-weight:bold">ScriptableObject</span>
 
 ---
 
@@ -93,7 +93,7 @@ AudioSource 객체 설정
 
 ---?image=images/audiosource.png&size=auto 70%
 
---- 
+---
 Button.OnClick 이벤트 처리
 
 ![Image-Absolute](images/button_oncllick.png)
