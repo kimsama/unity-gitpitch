@@ -82,7 +82,7 @@ public  class  MonoBehaviourEventTrigger : MonoBehaviour
 
 AudioSource 객체 생성
 
-![Image-Absolute](images/audiosource.png)
+ <img src="./images/audiosource.png" width="70%" height=auto>
 
 1. AudioSource 컴포넌트 추가
 2. AudioManager 객체 등록
