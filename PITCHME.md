@@ -79,12 +79,10 @@ AudioSource 등록
 
 ![Image-Absolute](images/audiosource01.jpg)
 
-그럼 AudioSource를 AudioManager에 등록하는 동작을 추가합니다.
-
+- AudioSource를 AudioManager에 등록.
 - MonobehaviourEventTrigger.OnAwake: AudioManager를 설정
 - AudioManager.audioSource: AudioSource를 설정.
-
-AudioManager.audioSource는 속성이므로 이벤트에 사용 가능 버립니다.
+- AudioManager.audioSource는 속성이므로 이벤트에 사용 가능 버립니다.
 
 ---
 
