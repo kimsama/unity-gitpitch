@@ -1,0 +1,58 @@
+.reveal {
+  font-size: 30px;
+}
+
+.reveal .slides {
+    padding: 2em;
+}
+.reveal .slides section>* {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.reveal h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 3.77em; }
+
+.reveal h2 {
+  text-align: center;
+  margin: 0.15em 0;
+  font-size: 2.5em; }
+
+.reveal h3 {
+  text-align: left;
+  margin: 1.05em 0;
+  font-size: 2.0em; }
+
+.reveal h4 {
+  text-align: left;
+  margin: 0.9em 0;
+  font-size: 1em; }
+
+.reveal blockquote {
+  width:100%;
+  font-size:0.95em;
+  font-style: normal;
+}
+
+.reveal .slide blockquote {
+  width:100%;
+  font-size:0.95em;
+  font-style: normal;
+}
+
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: auto;
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+
+.reveal ul {
+    width: 100%;
+}
