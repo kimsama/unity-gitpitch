@@ -1,4 +1,7 @@
-##  Serialization을 활용한 데이터관리
+
+### Serialization을 활용한 데이터관리
+
+---
 
 * Serialization에 대한 이해
 * ScriptableObject에 대한 이해
@@ -28,7 +31,7 @@
 
 ---
 
-## 게임에서의 serialization
+게임에서의 serialization
 
 * Save
 * F2키를 누르면 현재 상태를 바로 저장
@@ -37,7 +40,59 @@
 
 ---
 
+게임에서의 Serialization
+
+* 무엇을?
+ * 객체의 상태
+* 어떻게?
+ * bytes of stream
+* 어디로?
+ * socket
+
+---
+
+Unity3D의 Serialization
+
+* Serialization - 객체의 상태를 저장
+* Unity3D Class:
+ * MonoBehaviour
+ * GameObject
+ * Transform
+ * Vector3
+ * Texture2D
+ * …
+* Scene 파일: 일종의 Seriaization
+
+---
+
+Unity3D의 다양한 타입을 포함하는 객체에 대한 Serialization
+방법?
+
+* 다양한 컴포넌트를 포함하는 특정 GameObject의 Serialization 기
+ 능
+* Unity3D 엔진에서 기본적으로 지원하지 않음!
+ * 하지만, 방법은 있다!
+
+
+* 데이터 처리를 위한 사용자 클래스 정의와 Serialization
+ * ScriptableObject 의 사용
+ * 에디터 스크립트 지원
+
+---
+
 <span style="font-size:2.0em; font-weight:bold; color:gray">ScriptableObject</span>
+
+---
+
+SciptableObject의 장점
+
+* 데이터 관리를 획기적으로 개선
+* 어셈블리의 리로딩시 인스펙터 뷰에 있는 컴포넌트의 설정 값이 사라지는 경우 발생
+ * ScriptableObject에 값을 저장하고, 불러들이는 방법으로 해결 가능
+ * ScriptableObject의 클래스 데이터 변경시 저장된 값이 초기화
+ * 값이 구글 시트나 엑셀과 같이 데이터가 외부에 있는 경우 다시 불러 오는 방법으로 해결 가능
+* 유니티 애셋간 복잡한 연결 정보를 저장할 때 생산성 향상
+* 애셋 번들에서 다운 받은 애셋들을 조합해주는 중간 매개체 역할로 사용시 편리
 
 ---
 
