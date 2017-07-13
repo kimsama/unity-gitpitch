@@ -1,3 +1,42 @@
+##  Serialization을 활용한 데이터관리
+
+* Serialization에 대한 이해
+* ScriptableObject에 대한 이해
+* .NET Reflection에 대한 이해
+* 효율적인 데이터 관리에 대한 고찰
+
+---
+
+## Serialization
+
+* 직렬화
+* 객체를 메모리 바이트 형태의 스트림으로 변환
+* 왜?
+ * 메모리, 데이터 베이스 혹은 파일로 저장하기 위해
+* 객체의 상태를 그대로 저장
+ * 왜? -> 필요할 때 복원하기 위해서
+* Serialization의 반대
+ * Deserialization
+
+---
+
+![Image-Absolute](images/serialization01.png)
+
+---
+
+![Image-Absolute](images/serialization02.png)
+
+---
+
+## 게임에서의 serialization
+
+* Save
+* F2키를 누르면 현재 상태를 바로 저장
+
+![Image-Absolute](images/diablo2.png)
+
+---
+
 <span style="font-size:2.0em; font-weight:bold; color:gray">ScriptableObject</span>
 
 ---
